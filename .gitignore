@@ -1,0 +1,57 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+
+venv/
+env/
+.venv/
+
+# Environment Variables
+
+.env
+
+# VS Code
+
+.vscode/
+
+# Visual Studio
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Logs
+
+*.log
+
+# Cache
+
+.cache/
+.huggingface/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Optional: ignore generated vector database
+
+# storage/
+
+# Backup/
