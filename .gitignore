@@ -1,15 +1,6 @@
-# Bỏ qua môi trường ảo (nếu có)
-venv/
-env/
-
-# Bỏ qua file bảo mật
 .env
-
-# Bỏ qua file cache của Python
 __pycache__/
 *.pyc
-
-# Bỏ qua dữ liệu thô và cơ sở dữ liệu Vector (quá nặng)
 storage/
 raw_files/
 data/
