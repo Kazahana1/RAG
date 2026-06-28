@@ -1,57 +1,17 @@
-# Python
-
-**pycache**/
-*.py[cod]
-*$py.class
-
-# Virtual Environments
-
+# Bỏ qua môi trường ảo (nếu có)
 venv/
 env/
-.venv/
 
-# Environment Variables
-
+# Bỏ qua file bảo mật
 .env
 
-# VS Code
+# Bỏ qua file cache của Python
+__pycache__/
+*.pyc
 
-.vscode/
-
-# Visual Studio
-
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Jupyter Notebook
-
-.ipynb_checkpoints/
-
-# Logs
-
-*.log
-
-# Cache
-
-.cache/
-.huggingface/
-
-# OS Files
-
-.DS_Store
-Thumbs.db
-
-# Build
-
-build/
-dist/
-*.egg-info/
-
-# Optional: ignore generated vector database
-
-# storage/
-
-# Backup/
+# Bỏ qua dữ liệu thô và cơ sở dữ liệu Vector (quá nặng)
+storage/
+raw_files/
+data/
+Backup/
+cache_answers.json

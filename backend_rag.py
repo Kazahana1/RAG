@@ -42,7 +42,10 @@ app.add_middleware(
 )
 
 # Khoi tao AI models
-embed_model = GoogleGenAIEmbedding(model_name="models/text-embedding-004", api_key=GEMINI_API_KEY)
+embed_model = GoogleGenAIEmbedding(
+    model_name="gemini-embedding-2", 
+    api_key=GEMINI_API_KEY
+)
 llm = GoogleGenAI(model="gemini-2.5-flash", api_key=GEMINI_API_KEY, temperature=0.1)
 Settings.embed_model = embed_model
 Settings.llm = llm

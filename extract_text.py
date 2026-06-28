@@ -1,5 +1,5 @@
 import os
-import pymupdf 
+import fitz
 from pptx import Presentation
 
 # cau hinh thu muc va file dau ra
@@ -24,7 +24,7 @@ def get_all_files(source_input):
 def process_pdf_content(file_path):
     # xu ly noi dung file pdf
     try:
-        doc = pymupdf.open(file_path)
+        doc = fitz.open(file_path)
         text_out = ""
         for page in doc:
             blocks = page.get_text("blocks")
